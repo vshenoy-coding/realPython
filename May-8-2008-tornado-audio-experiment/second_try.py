@@ -32,7 +32,7 @@ FRAME_HOP_MS = 250        # coarser sampling reduces choppiness
 AUDIO_SR = 22050
 MAX_CLIP_SECONDS = 120
 
-# Synthesis tuning
+# Synthesis tuning        # adjusting resonance
 SUBRUMBLE_FREQ = 18.0
 SUBRUMBLE_GAIN = 1.2
 RUMBLE_CUTOFF = 60.0
