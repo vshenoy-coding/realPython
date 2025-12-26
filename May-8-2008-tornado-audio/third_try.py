@@ -279,7 +279,7 @@ ls -la downloaded_videos synthesized_audio
 
 # play inline (replace <your_file> with actual file)
 from IPython.display import Audio, display
-display(Audio('/content/synthesized_audio/mADFdEyfnRc_synth.wav'))
+display(Audio('/content/synthesized_audio/<your_file>.wav'))
 
 # download to your local machine
 #from google.colab import files
