@@ -194,3 +194,11 @@ for url in YOUTUBE_URLS:
         print("Error processing", url, ":", e)
 
 print("\nAll done. Synthesized files are in the folder:", OUTPUT_DIR)
+
+# play inline (replace filename with actual file)
+from IPython.display import Audio, display
+display(Audio('/content/synthesized_audio/<your_file>.wav'))
+
+# download to your local machine
+#from google.colab import files
+#files.download('/content/synthesized_audio/<your_file>_synth.wav')
