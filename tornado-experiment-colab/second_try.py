@@ -239,6 +239,8 @@ if errors:
     for u, msg in errors:
         print("-", u, ":", msg)
 
+ls -la downloaded_videos synthesized_audio
+
 # play inline (replace filename with actual file)
 from IPython.display import Audio, display
 display(Audio('/content/synthesized_audio/<your_file>.wav'))
