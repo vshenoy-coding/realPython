@@ -239,6 +239,7 @@ if errors:
     for u, msg in errors:
         print("-", u, ":", msg)
 
+# Check listed files in each created directory
 ls -la downloaded_videos synthesized_audio
 
 # play inline (replace filename with actual file)
