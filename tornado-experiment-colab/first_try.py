@@ -195,6 +195,9 @@ for url in YOUTUBE_URLS:
 
 print("\nAll done. Synthesized files are in the folder:", OUTPUT_DIR)
 
+# Check listed files in each created directory
+ls -la downloaded_videos synthesized_audio
+
 # play inline (replace filename with actual file)
 from IPython.display import Audio, display
 display(Audio('/content/synthesized_audio/<your_file>.wav'))
